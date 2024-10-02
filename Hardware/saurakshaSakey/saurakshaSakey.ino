@@ -16,13 +16,13 @@ Adafruit_MPU6050 mpu;
 #define BUTTON_PIN 12
 
 // WiFi credentials
-const char* ssid = "Ganya_shelar";
-const char* password = "123456789";
+const char* ssid = "HackCoder";
+const char* password = "Aimers@2023";
 
 
 
 // Server URL
-String serverURL = "http://127.0.0.1:5000/update_location";
+String serverURL = "http://192.168.0.102:5000/update_location";
 
 // Function to setup the GPS
 void setupGPS() {

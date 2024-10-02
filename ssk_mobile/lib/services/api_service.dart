@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  final String baseUrl = 'http://192.168.9.148:5000/latest_location';
+  final String baseUrl = 'http://192.168.0.102:5000/latest_location';
 
   Future<Map<String, dynamic>> fetchLocationData() async {
     final response = await http.get(Uri.parse(baseUrl));
